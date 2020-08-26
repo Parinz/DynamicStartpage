@@ -19,13 +19,13 @@ function GetClock() {
 
   var hour = today.getHours();
   if (hour >= 5 && hour <= 11) {
-    document.querySelector('#greeting').innerHTML = 'Good Morning.';
+    document.querySelector('#greeting').innerHTML = 'Good Morning, Parin';
   } else if (hour >= 12 && hour <= 17) {
-    document.querySelector('#greeting').innerHTML = 'Good Afternoon.';
+    document.querySelector('#greeting').innerHTML = 'Good Afternoon, Parin';
   } else if (hour >= 18 && hour <= 22) {
-    document.querySelector('#greeting').innerHTML = 'Good Evening.';
+    document.querySelector('#greeting').innerHTML = 'Good Evening, Parin';
   } else {
-    document.querySelector('#greeting').innerHTML = 'Good Night.';
+    document.querySelector('#greeting').innerHTML = 'Good Night, Parin';
   }
 }
 
